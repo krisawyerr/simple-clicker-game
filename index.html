@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bouncing Images</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="banner">
+        <h1>Clicker Games: Click The Target</h1>
+        
+        <p>Current Points: </p>
+        <p id="count-el">0</p>
+        <p>Refresh Page To Restart</p>
+    </div>
+    <div class="bouncing-container">
+        <button class="bouncing-image" id="increment-btn" onclick="increment()">
+           <img src="target.png" alt="Bouncing Image 1" class="imageimage"> 
+        </button>
+    </div>
+    <div class="bouncing-container2">
+        <button class="bouncing-image2" id="increment-btn" onclick="increment1()">
+            <img src="target.png" alt="Bouncing Image 2" class="imageimage">
+        </button>
+    </div>
+    <script src="index.js"></script>    
+</body>
+</html>
